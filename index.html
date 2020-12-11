@@ -4,11 +4,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
+
   <!-- Bootstrap Library -->
-  <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
-  
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
   <title>Alexandre Vieira</title>
   <link rel="stylesheet" href="css/main.css">
 </head>
@@ -46,7 +46,7 @@
         <span>👇</span>
         <p>Meet Alexandre Vieira</p>
       </div>
-      <svg width="40" height="77" viewBox="0 0 48 96.686">
+      <svg class="scroll" width="40" height="77" viewBox="0 0 48 96.686">
         <g id="scrow" transform="translate(-202 -690)">
           <g id="Rectangle_4" data-name="Rectangle 4" transform="translate(202 690)" fill="none" stroke="#fff"
             stroke-linecap="round" stroke-width="6">
@@ -93,31 +93,34 @@
   </section>
 
   <section class="skills">
-    <ul>
-      <li class="transition2">
-        <div class="icon-container one">
-          <img src="images/icon-ux.svg" alt="UI/UX icon">
-        </div>
-        <p class="skill-title">UI UX Design</p>
-        <p class="featured-desc skill-desc">Responsive and smart pages, bringing the best user experience</p>
-      </li>
-      <li class="transition2">
-        <div class="icon-container two">
-          <img src="images/icon-frontend.svg" alt="UI/UX icon">
-        </div>
-        <p class="skill-title">Front-End Development</p>
-        <p class="featured-desc skill-desc">The latest tools in your next project. HTML, CSS, JavaScript
-          React, Vue.js</p>
-      </li>
-      <li class="transition2">
-        <div class="icon-container three">
-          <img src="images/icon-logo.svg" alt="UI/UX icon">
-        </div>
-        <p class="skill-title">Identity Design</p>
-        <p class="featured-desc skill-desc">User's story, targeted audience,
-          focus on customer's insights</p>
-      </li>
-    </ul>
+    <div class="skills-container">
+      <ul>
+        <li class="transition2">
+          <div class="icon-container one">
+            <img src="images/icon-ux.svg" alt="UI/UX icon">
+          </div>
+          <p class="skill-title">UI UX Design</p>
+          <p class="featured-desc skill-desc">Responsive and smart pages, bringing the best user experience</p>
+        </li>
+        <li class="transition2">
+          <div class="icon-container two">
+            <img src="images/icon-frontend.svg" alt="UI/UX icon">
+          </div>
+          <p class="skill-title">Front-End Development</p>
+          <p class="featured-desc skill-desc">The latest tools in your next project. HTML, CSS, JavaScript
+            React, Vue.js</p>
+        </li>
+        <li class="transition2">
+          <div class="icon-container three">
+            <img src="images/icon-logo.svg" alt="UI/UX icon">
+          </div>
+          <p class="skill-title">Identity Design</p>
+          <p class="featured-desc skill-desc">User's story, targeted audience,
+            focus on customer's insights</p>
+        </li>
+      </ul>
+    </div>
+
   </section>
 
   <section class="portfolio">
@@ -138,8 +141,8 @@
         <div class="inner">
           <p class="subtitle">Cocktail maker</p>
           <p class="featured-title">Mr Cocktail</p>
-          <p class="featured-desc">Create your cocktails and see what others are creating. 
-Don't drink and drive!</p>
+          <p class="featured-desc">Create your cocktails and see what others are creating.
+            Don't drink and drive!</p>
         </div>
       </div>
       <a href="https://brazil-cocktail.herokuapp.com/cocktails"><img src="images/mr-cocktail.png" alt="Moovers"></a>
@@ -150,7 +153,8 @@ Don't drink and drive!</p>
         <div class="inner">
           <p class="subtitle">Drum-kit App</p>
           <p class="featured-title">JavaScript Drum Kit</p>
-          <p class="featured-desc">A fun way to kill your time and show the drummer you are. Made in JavaScript and usable for desktop. Mobile version about to be released.</p>
+          <p class="featured-desc">A fun way to kill your time and show the drummer you are. Made in JavaScript and
+            usable for desktop. Mobile version about to be released.</p>
         </div>
       </div>
       <a href="alex-504.github.io/drumkit/"><img src="images/drum-kit.png" alt="Moovers"></a>

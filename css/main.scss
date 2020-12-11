@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
 
 body {
-  background-color: #7e7d7d;
+  background-color: #fcfcfc;
   height: 100mh;
   margin: 0;
   font-family: 'Poppins', Arial, Helvetica, sans-serif;
@@ -55,8 +55,133 @@ header {
     }
   }
 }
+
+.social-header,
+.hero-design {
+  display: none;
 }
 
+.hero {
+  background: #6FBBCF;
+  color: rgb(255, 255, 255);
+  display: grid;
+  text-align: center;
+  padding: 4em;
+}
+
+.meet {
+  display: flex;
+  margin: 1em auto;
+  width: 200px;
+  font-weight: bold;
+  color: #E7FA68;
+
+  span {
+    margin-right: .3em;
+  } 
+}
+
+.scroll {
+  width: 30px;
+  margin-top: 2em;
+  text-align: center;
+}
+
+section {
+  padding: 4em 2em;
+}
+
+.featured {
+  position: relative;
+  text-align: center;
+}
+.featured::before {
+    content: "";
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #bcdbe4;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+
+  .subtitle {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #6fbacf;
+    letter-spacing: .2em;
+    font-size: .85em;
+  }
+
+  .featured-title {
+    color: black;
+    font-weight: bold;
+    font-size: 1.3em;
+    margin-top: -.4em;
+    display: block;
+  }
+  
+  .featured-desc {
+    color: #3b3b3b;
+    margin-bottom: 3em;
+    font-size: .9em;
+    line-height: 1.8em;
+    font-weight: 500;
+  }
+
+  .skills {
+    background: #e1ee8c;
+    text-align: center;
+  }
+
+  .skills-container ul li {
+    background: white;
+    padding: 2em;
+    border-radius: 1em;
+    margin-bottom: 1em;
+
+    .icon-container {
+      height: 100px;
+      display: grid;
+      place-content: center;
+      margin: 0 auto;
+
+      &.one {
+        width: 50px;
+      }
+      &.two {
+        width: 170px;
+      }
+      &.three {
+        width: 60px;
+      }
+    }
+  }
+
+
+  .skill-title {
+    font-weight: bold;
+  }
+
+  .featured-desc {
+    margin-bottom: 2em;    
+  }
+
+  .portfolio {
+    text-align: center;
+    background: #f7f7f7;
+  }
+  .portfolio-container a img {
+    border-radius: 1em;
+    margin-bottom: 2em;
+  }
+
+
+
+
+// #################### DELETE LATER ################
 // .icon-top {
 //   height: 20px;
 // }
