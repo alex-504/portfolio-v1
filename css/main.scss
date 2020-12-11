@@ -132,7 +132,7 @@ section {
   }
 
   .skills {
-    background: #E7FA68;
+    background: #e1ee8c;
     text-align: center;
   }
 
@@ -166,8 +166,16 @@ section {
   }
 
   .featured-desc {
+    margin-bottom: 2em;    
+  }
+
+  .portfolio {
+    text-align: center;
+    background: #f7f7f7;
+  }
+  .portfolio-container a img {
+    border-radius: 1em;
     margin-bottom: 2em;
-    
   }
 
 
