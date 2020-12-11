@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap");
-
 body {
   height: 100vh;
   margin: 0;
@@ -61,7 +60,7 @@ header ul a {
 
 .hero {
   background: #6FBBCF;
-  color: rgb(255, 255, 255);
+  color: white;
   display: -ms-grid;
   display: grid;
   text-align: center;
@@ -182,12 +181,10 @@ section {
 }
 
 @media only screen and (min-width: 800px) {
-
   .featured,
   .portfolio {
     text-align: left;
   }
-
   .featured,
   .portfolio-container {
     display: -ms-grid;
@@ -195,37 +192,31 @@ section {
     -ms-grid-columns: 40% auto;
     grid-template-columns: 40% auto;
   }
-
   .left,
   .portfolio-left {
     display: -ms-grid;
     display: grid;
     place-content: center;
   }
-
   .right {
     margin-left: 2em;
     margin-top: 1em;
   }
-
   .skills {
     margin-top: -5em;
-    margin-bottom: -7em; 
+    margin-bottom: -7em;
     padding-top: 7em;
   }
-
   .skills-container ul {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: (auto)[3];
+    -ms-grid-columns: auto [3];
     grid-template-columns: repeat(3, auto);
     grid-gap: 1em;
   }
-
   .portfolio {
     padding-top: 7em;
   }
-
   .portfolio-container img {
     margin-left: 2em;
   }
@@ -235,11 +226,9 @@ section {
   .hero {
     height: 90vh;
   }
-
   .featured {
     padding-top: 111px;
   }
-
   .nav-container {
     display: -ms-grid;
     display: grid;
@@ -247,27 +236,21 @@ section {
     grid-template-columns: 66% auto;
     background: unset;
   }
-
   .nav-container header {
     background: #68B4C7;
   }
-
   header {
     padding: 2em 2em 2em 4em;
   }
-
   .social-header {
     padding: 2em 4em 2em 0;
   }
-
   section {
     padding: 4em;
   }
-
   .social-header {
     display: block;
   }
-
   .social-header ul {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -278,11 +261,9 @@ section {
     width: 7em;
     float: right;
   }
-
   .social-header ul img {
     width: 20px;
   }
-
   .hero {
     display: -ms-grid;
     display: grid;
@@ -291,30 +272,24 @@ section {
     background: unset;
     padding: 0;
   }
-
   .hero .content {
     background: #6FBBCF;
     padding: 6em 8em 6em 4em;
     text-align: left;
   }
-
   .hero .content h1 {
     font-size: 3em;
     line-height: 1.2em;
   }
-
   .meet {
     margin: unset;
-
   }
-
   .hero-design {
     display: unset;
     margin-left: -50%;
     margin-top: 15%;
     width: 100%;
   }
-
   .portfolio img {
     float: right;
     max-width: 500px;
@@ -325,15 +300,12 @@ section {
   header {
     padding: 2em 2em 2em 10em;
   }
-
   .social-header {
     padding: 2em 10em 2em 0;
   }
-
   section {
     padding: 10em 10em 4em 10em;
   }
-
   .hero .content {
     padding: 6em 8em 6em 10em;
   }
@@ -343,15 +315,12 @@ section {
   header {
     padding: 2em 2em 2em 20em;
   }
-
   .social-header {
     padding: 2em 20em 2em 0;
   }
-
   section {
     padding: 6em 20em 4em 20em;
   }
-
   .hero .content {
     padding: 9em 20em 6em 20em;
   }
@@ -365,9 +334,8 @@ section {
   from {
     -webkit-transform: translate(262px, 798px);
     transform: translate(262px, 798px);
-    z-index: 5;
+    z-index: 15;
   }
-
   to {
     -webkit-transform: translate(262px, 830px);
     transform: translate(262px, 830px);
@@ -380,7 +348,6 @@ section {
     transform: translate(262px, 798px);
     z-index: 5;
   }
-
   to {
     -webkit-transform: translate(262px, 830px);
     transform: translate(262px, 830px);
@@ -391,5 +358,4 @@ section {
   text-decoration: underline;
   font-weight: bold;
 }
-
 /*# sourceMappingURL=main.css.map */
