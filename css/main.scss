@@ -34,6 +34,29 @@ img {
 
 }
 
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 2em;
+
+  .logo {
+    color: #E7FA68;
+    font-weight: bold;
+    font-size: larger;
+  }
+
+  ul {
+    display: flex;
+
+    a {
+      display: block;
+      padding: 0 1em;
+    }
+  }
+}
+}
+
 // .icon-top {
 //   height: 20px;
 // }
